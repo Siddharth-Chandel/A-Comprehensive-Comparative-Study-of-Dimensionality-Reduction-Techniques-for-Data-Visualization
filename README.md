@@ -95,11 +95,13 @@ cd A-Comprehensive-Comparative-Study-of-Dimensionality-Reduction-Techniques-for-
 python Comparison_script.ipynb
 ```
 ### 📊 Results Summary
-Metric	PCA	t-SNE	UMAP
-Execution Time	Fast	Slow	Fast
-Cluster Visualization	Moderate	Excellent	Excellent
-Global Structure	Good	Moderate	Excellent
-Scalability	High	Low	High
+| Metric                   | PCA         | t-SNE        | UMAP         |
+|--------------------------|-------------|--------------|--------------|
+| **Execution Time**        | Fast        | Slow         | Fast         |
+| **Cluster Visualization** | Moderate    | Excellent    | Excellent    |
+| **Global Structure**      | Good        | Moderate     | Excellent    |
+| **Scalability**           | High        | Low          | High         |
+
 
 #### 🔮 Future Directions
 Optimize hyperparameters for t-SNE and UMAP using grid search.
